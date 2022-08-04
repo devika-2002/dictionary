@@ -1,6 +1,6 @@
 # Q23.Write a Python program to find the highest 3 values of corresponding keys in 
 # a dictionary.
-#o/p=100,68,50
+#o/p=[100,68,50]
 
 dict={"a":100,"b":68,"c":50,"d":40}
 a=[]
@@ -19,15 +19,3 @@ a.append(max)
 a.append(sec)
 a.append(third)
 print(a)
-
-
-
-
-
-
-
-
-
-
-
-

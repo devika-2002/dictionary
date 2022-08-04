@@ -3,7 +3,15 @@
 # Original Dictionary:
 # Clear the list values in the said dictionary:
 # {'C1': [], 'C2': [], 'C3': []}
+            # For_loop
+# D={'C1': [10, 20, 30], 'C2': [20, 30, 40], 'C3': [12, 34]}
+# for i in D:
+#     D[i].clear()
+# print(D)
+
 D={'C1': [10, 20, 30], 'C2': [20, 30, 40], 'C3': [12, 34]}
-for i in D:
-    D[i].clear()
-print(D)
+j=list(D)
+i=0
+while i<len(j):
+    j[i].clear()
+print(j)

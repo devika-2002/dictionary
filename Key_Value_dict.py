@@ -10,5 +10,3 @@
 # for i in a:
 #   b.append(a[i])
 # print(b)
-
- 

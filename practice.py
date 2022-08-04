@@ -27,7 +27,7 @@
 # for i in a.items():
 #     print(i)
 
-# # pop methods() takes argument
+# pop methods() takes argument
 # a={'a':2,'b':9,'c':5}
 # a.pop("a")
 # print(a)
