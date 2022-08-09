@@ -25,4 +25,30 @@
 #     if dict[i]>max:
 #         max=dict[i]
         
-        
+
+
+
+dict = {'a':50, 'b':8, 'c': 56,'d':40,'e':68}
+convert_list=list(dict)
+i=0
+emti_list=[]
+while i<len(convert_list):
+    emti_list.append(dict[convert_list[i]])
+    emti_list1=[]
+    max=0
+    min=10
+    j=0
+    while j<len(emti_list):
+        if emti_list[j]>max:
+            max=emti_list[j]
+        elif emti_list[j]<min:
+            min=emti_list[j]
+        j=j+1
+    i=i+1
+print("max_number:-",max)
+print("min_number:-",min)
+
+
+
+
+

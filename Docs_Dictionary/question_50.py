@@ -11,27 +11,26 @@ i=0
 while i<len(convert_list):
     emti_list.append(convert_list[i])
     emti_list.append(a[convert_list[i]])
+    
     i=i+1
-print(emti_list)
+list=emti_list
+j=0
+emti_list1=[]
+while j<len(list):
+    c=[]
+    c.append(list[j])
+    c.append(list[j+1])
+    emti_list1.append(c)
+    j=j+2
+print(emti_list1)    
+\
 
 
-
-
-# j=0
-# emti_list1=[]
-# while j<len(emti_list):
-#     emti_list1.append(emti_list[0])
-#     j=j+1
-# print(emti_list1)
-
-
-# devika=[]
+# a={1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
+# d = []
 # for i in a.items():
-#     devika.append(list(i))
-# print(devika)
-
-
-
+#     d.append(list(i))
+# print(d)
 
 
 # color_dict = {'1' : 'Austin Little', '2' : 'Natasha Howard', '3' : 'Alfred Mullins', '4' : 'Jamie Rowe'}

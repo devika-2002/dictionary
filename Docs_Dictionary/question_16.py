@@ -14,7 +14,14 @@
 #         break
 # print(x)
 
-
+keys=["a","b","c","d","e"]
+Values=[1,2,3,4,5]
+emti_dict={}
+i=0
+while i<len(keys):
+    emti_dict[keys[i]]=Values[i]
+    i=i+1
+print(emti_dict)
 
 # x={}
 # a="devika"
