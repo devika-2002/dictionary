@@ -11,14 +11,13 @@
 #     print(*row)
  
 
-my_dict = {'C1':[1,2,3],'C2':[5,6,7],'C3':[9,10,11]}
-convert_list=list(my_dict)
+
+dict = {'C1':[1,2,3],'C2':[5,6,7],'C3':[9,10,11]}
+a,b,c=dict.keys()
+print(a,b,c)
+x,y,z=dict.values()
+d=x,y,z
 i=0
-while i<len(my_dict):
-    list=my_dict[convert_list[i]]
-    j=0
-    while j<len(list):
-        print(list[j])
-        j=j+1
+while i<len(d):
+    print(x[i],y[i],z[i])
     i=i+1
-# print(list[j])

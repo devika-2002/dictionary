@@ -14,6 +14,7 @@
 # marks = {'Science': [88, 89, 62, 95], 'Language': [77, 78, 84, 80]}
 # print(list_of_dicts(marks))
 
+
 # dict={'Science': [88, 89, 62, 95], 'Language': [77, 78, 84, 80]}
 # convert_list=list(dict)
 # emti_list=[]
@@ -37,24 +38,4 @@
 # print(emti_list)
 # # print(dict1)
 
-
-dict={'Science': [88, 89, 62, 95], 'Language': [77, 78, 84, 80]}
-convert_list=list(dict)
-emti_list=[]
-i=0
-# dict1={}
-while i<len(convert_list):
-    dict1={}
-    a=dict[convert_list[i]]
-    j=0
-    emti_list=[]
-    while j<len(a):
-        # print(a[j])
-        # dict1[convert_list[i]]=a[0]
-        
-        emti_list.append(dict1)
-        # print(emti_list)
-        j=j+1
-    i=i+1
-print(emti_list)  
 
