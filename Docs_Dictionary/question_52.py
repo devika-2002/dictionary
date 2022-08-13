@@ -1,14 +1,14 @@
 # Q52. Write a Python program to find the specified number of maximum values in a given dictionary.
 # Original Dictionary:
-d = {'a': 5, 'b': 14, 'c': 32, 'd': 35, 'e': 24, 'f': 100, 'g': 57, 'h': 8, 'i': 100}
-l=[]
-j={}
-for i in d.values():
-    l.append(i)
-maximum = max(l)   
-for h in l:
-    if h in j:
-        j[h]+=1
-    else:
-        j[h]=1
-print(j[maximum])
+# d = {'a': 5, 'b': 14, 'c': 32, 'd': 35, 'e': 24, 'f': 100, 'g': 57, 'h': 8, 'i': 100}
+# l=[]
+# j={}
+# for i in d.values():
+#     l.append(i)
+# maximum = max(l)   
+# for h in l:
+#     if h in j:
+#         j[h]+=1
+#     else:
+#         j[h]=1
+# print(j[maximum])

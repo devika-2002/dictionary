@@ -6,8 +6,22 @@
 # L= [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
 # d = {}
 # for i in L:
+#     # print(i[1])
 #     if i[0] not in d.keys():
+        
 #         d.update({i[0]:[i[1]]})
 #     elif i[0] in d.keys():
 #         d[i[0]].append(i[1])
 # print(d)
+
+
+
+# l= [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+# d = {}
+# i=0
+# while i<len(l):
+#     a=l[i]
+#     connect_dict=dict(a)
+#     print(connect_dict)
+#     i=i+1
+
