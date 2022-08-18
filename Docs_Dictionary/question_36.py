@@ -22,7 +22,6 @@ while i<len(convert_list):
     j=0
     while j<len(convert_list1):
         if i==j and d1[convert_list[i]]==d2[convert_list1[j]]:
-            # print('{}:{} is present in both d1,d2'.format(convert_list[i],d2[convert_list1[i]]))
             print(convert_list[i],':',d2[convert_list1[i]])
             j=j+1
         i=i+1

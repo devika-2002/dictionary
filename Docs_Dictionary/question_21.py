@@ -7,14 +7,13 @@
 # u_value = set(val for dic in L for val in dic.values())
 # print("Unique Values: ",u_value)
 
-d=[{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
-a=[]
-for i in d:
-    for j in i.values():
-        a.append(j)
-print(set(a))
+dict=[{"V":"S001"},{"V": "S002"},{"VI": "S001"},{"VI": "S005"},{"VII":"S005"},{"V":"S009"},{"VIII":"S007"}]
+emti_list=[]
+for i in dict:
+    for j in i.values():                                                  
+        emti_list.append(j)
+print(set(emti_list))
     
-
 
 # a={1:3,'r':2}
 # for i in a:

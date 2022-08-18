@@ -5,17 +5,18 @@
 # Dictionary in descending order by value :  {3: 4, 4: 3, 1: 2, 2: 1, 0: 0}
 
 
-# dict={1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
-# c=[]
-# for i in dict:
-#     c.append(dict[i])
-#     c.sort()
-# a={}
-# for j in c:
-#     for k in dict:
-#         if dict[k]==j:
-#             a[k]=j
-# print(a)
+dict={1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+c=[]
+for i in dict:
+    c.append(dict[i])
+    c.sort()
+a={}
+for j in c:
+    for k in dict:
+        if dict[k]==j:
+            a[k]=j
+print(a)
+
 
 
 # # descending ka hai
