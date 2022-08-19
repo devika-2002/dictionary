@@ -67,6 +67,11 @@
 # thisdict = dict.fromkeys(x, y)
 # print(thisdict)
 
+# x = ('key1', 'key2', 'key3')
+# y = 9
+# dict.fromkeys(x, y)
+# print(dict)
+
 # # get method()
 # car = {
 #   "brand": "Ford",
@@ -76,7 +81,13 @@
 # x = car.get("model")
 # print(x)
 
-
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car.get("model")
+# print(car)
 # set,tuple,list,dict =the differences
 
 # a={"a":1,"b":2,"c":3}

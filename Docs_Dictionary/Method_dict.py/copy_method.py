@@ -2,7 +2,7 @@
 
 # dict={'a':4,'b':3,'c':1}
 # x= dict.copy()
-# print(dict)
+# print(x)
 
 dict={'a':4,'b':3,'c':1}
 dict.copy()
