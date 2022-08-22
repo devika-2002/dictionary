@@ -16,5 +16,3 @@ while i<len(dict):
         emti_dict[convert_list[i]]=dict[convert_list[i]]
     i=i+1
 print(emti_dict)
-
-

@@ -24,4 +24,3 @@ while i<len(dict):
         emti_list.append(dict[i])
     i=i+1
 print(emti_list)
-
